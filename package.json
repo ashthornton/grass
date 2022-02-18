@@ -30,5 +30,8 @@
     "snowpack-plugin-glslify": "^1.0.0",
     "three": "^0.132.2",
     "tweakpane": "^3.0.5"
+  },
+  "dependencies": {
+    "fast-2d-poisson-disk-sampling": "^1.0.1"
   }
 }

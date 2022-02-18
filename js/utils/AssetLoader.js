@@ -156,7 +156,7 @@ export default class AssetLoader {
 		if (!this.textures[url]) {
 			this.textures[url] = this.add(new Promise((resolve, reject) => {
 				this.textureLoader.load(url, texture => {
-					resolve(store.Gl.generateTexture(texture, options))
+					resolve(store.WebGL.generateTexture(texture, options))
 				}, undefined, reject)
 			}))
 		}
